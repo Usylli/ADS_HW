@@ -1,6 +1,6 @@
 
 public class Solution {
-	static int deep = -1;
+    static int deep = -1;
     static int ans = 0;
     public void travoman(TreeNode root, int level){
         if(root == null) return;
